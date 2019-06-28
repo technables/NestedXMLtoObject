@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UserListResult  xmlns:a="http://schemas.datacontract.org/2004/07/Data">
+  <a:Code>000</a:Code>
+  <a:Message>OK</a:Message>
+  <a:Users>
+    <a:User>
+      <a:Id>1</a:Id>
+      <a:Name>ABC</a:Name>
+      <a:Type>Customer</a:Type>
+
+    </a:User>
+    <a:User>
+      <a:Id>2</a:Id>
+      <a:Name>John Doe</a:Name>
+      <a:Type>Customer</a:Type>
+
+    </a:User>
+    <a:User>
+      <a:Id>3</a:Id>
+      <a:Name>John Doe 2</a:Name>
+      <a:Type>Admin</a:Type>
+    </a:User>
+  </a:Users>
+</UserListResult>

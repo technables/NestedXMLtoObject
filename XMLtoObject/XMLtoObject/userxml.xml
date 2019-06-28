@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UserListResult>
+  <Code>000</Code>
+  <Message>OK</Message>
+  <Users>
+    <User>
+      <Id>1</Id>
+      <Name>ABC</Name>
+      <Type>Customer</Type>
+
+    </User>
+    <User>
+      <Id>2</Id>
+      <Name>John Doe</Name>
+      <Type>Customer</Type>
+
+    </User>
+    <User>
+      <Id>3</Id>
+      <Name>John Doe 2</Name>
+      <Type>Admin</Type>
+    </User>
+  </Users>
+</UserListResult>
