@@ -10,9 +10,13 @@ namespace XMLtoObject
         public Form1()
         {
             InitializeComponent();
-            string filePath = Directory.GetCurrentDirectory() + @"\userxml2.xml";
+            string filePath = Directory.GetCurrentDirectory() + @"\userxml.xml";
             string usersXML = File.ReadAllText(filePath);
-            UserListResult2 userList = DeserializeXMLtoObject<UserListResult2>(usersXML);
+            UserListResult userList = DeserializeXMLtoObject<UserListResult>(usersXML);
+
+            string filePath2 = Directory.GetCurrentDirectory() + @"\userxml2.xml";
+            string usersXML2 = File.ReadAllText(filePath);
+            UserListResult2 userList2 = DeserializeXMLtoObject<UserListResult2>(usersXML);
         }
 
 
